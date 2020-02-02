@@ -1,0 +1,28 @@
+model_config = {
+    'dataset': '../../Data/v2/',
+    'level': 'sentences',
+    'MAX_LENGTH': 18,
+    'embedding_dim': 300,
+    'tag_dim': 100,
+    'dep_dim': 100,
+    'ver':'glove.6B.',
+    'freq':0,
+    'hidden_size': 256,
+    'num_layers': 2,
+    'dropout':0.2,
+    'lr': 0.001,
+    'model': 'Attn',
+    'batch_size': 32,
+    'epochs':100,
+    'structural':False,
+    'style': 'gender',#age,education,gender
+    'gpu':0,
+    'clip': 100,
+    'classifer_class_size': 2,
+    'lm_name': 'lm_forward',
+    'lm_backward': False,
+    'classifier_loss': True,
+    'classifier_name':'yelp_sentiment',
+    'print_every':100,
+    'dataset_source': 'PASTEL' #PASTEL, Yelp
+}
