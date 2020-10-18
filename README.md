@@ -2,6 +2,18 @@ Neural Unsupervised Style Transfer based on Multiple-Attribute Text Rewriting - 
 
 Tested this model on PASTEL and Yelp dataset which needs to put in the Data folder in the same directory as the Code folder.
 
+Denoising Loss
+
+![Denoising Loss](https://raw.githubusercontent.com/ddhruvkr/Unsupervised-Style-Transfer/master/DenoisingLoss.png)
+
+Cycle Consistency + Classification Loss
+
+![Cycle Consistency + Classification Loss](https://raw.githubusercontent.com/ddhruvkr/Unsupervised-Style-Transfer/master/CycleConsistency_ClassificationLoss.png)
+
+Final Objective
+
+![Final Objective](https://raw.githubusercontent.com/ddhruvkr/Unsupervised-Style-Transfer/master/Loss.png)
+
 TODO:
 
 1) Add a language model loss.
