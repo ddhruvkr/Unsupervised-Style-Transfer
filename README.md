@@ -14,6 +14,8 @@ Final Objective
 
 ![Final Objective](https://raw.githubusercontent.com/ddhruvkr/Unsupervised-Style-Transfer/master/Loss.png)
 
+To run the code, first call the main.py file in the Classification folder to train the classifier. Then call the main.py file in the Generator folder.
+
 TODO:
 
 1) Add a language model loss.
